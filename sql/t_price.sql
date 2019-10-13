@@ -1,0 +1,5 @@
+CREATE TABLE t_price(
+	id INT not null AUTO_INCREMENT,
+	price INT NOT NULL,
+	PRIMARY KEY(id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
